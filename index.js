@@ -12,14 +12,4 @@ app.get("/notebooks", async function (req, res) {
   res.json(notebooks);
 });
 
-// app.get("/", function(req, res) {
-//   rp(someURL).then(result => {
-//       // do some processing of result into finalData
-//       res.send(finalData);
-//   }).catch(err => {
-//       console.log(err);
-//       res.sendStatus(501);
-//   });
-// });
-
 app.listen(5000, () => console.log(`Servidor iniciado na porta 5000`));
